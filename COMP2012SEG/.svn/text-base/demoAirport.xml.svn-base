@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Airport>
+  <airportName>Demonstration Airport</airportName>
+  <airportCreated>2011-5-6</airportCreated>
+  <runway UID="1">
+    <centerX>-270</centerX>
+    <centerY>529</centerY>
+    <orientation>45</orientation>
+    <length>2500</length>
+    <width>55</width>
+    <bottomExtension UID="18795">
+      <length>400</length>
+      <type>STARTER_EXTENSION</type>
+      <width>30</width>
+    </bottomExtension>
+    <topExtension UID="18795">
+      <length>300</length>
+      <type>STOPWAY</type>
+    </topExtension>
+  </runway>
+  <runway UID="2">
+    <centerX>600</centerX>
+    <centerY>-100.0</centerY>
+    <orientation>90</orientation>
+    <length>1000</length>
+    <width>30</width>
+    <topExtension UID="18795">
+      <length>100</length>
+      <type>UNFIT_FOR_USE</type>
+    </topExtension>
+  </runway>
+  <runway UID="3">
+    <centerX>-1000</centerX>
+    <centerY>-1000</centerY>
+    <orientation>90</orientation>
+    <length>1600</length>
+    <width>41</width>
+  </runway>
+  <runway UID="4">
+    <centerX>270</centerX>
+    <centerY>-1529</centerY>
+    <orientation>45</orientation>
+    <length>1000</length>
+    <width>55</width>
+    <bottomExtension UID="18795">
+      <length>400</length>
+      <type>UNFIT_FOR_USE</type>
+    </bottomExtension>
+    <topExtension UID="18795">
+      <length>150</length>
+      <type>STARTER_EXTENSION</type>
+      <width>18</width>
+    </topExtension>
+  </runway>
+  <taxiwayJoin UID="16317">
+    <joinX>-270</joinX>
+    <joinY>-529</joinY>
+  </taxiwayJoin>
+  <taxiwayJoin UID="16318">
+    <joinX>334</joinX>
+    <joinY>-529</joinY>
+  </taxiwayJoin>
+  <taxiwayRunwayJoin UID="620">
+    <joinRX>-270</joinRX>
+    <joinRY>529</joinRY>
+    <joinRunway>1</joinRunway>
+  </taxiwayRunwayJoin>
+  <taxiwayRunwayJoin UID="621">
+    <joinRX>-580</joinRX>
+    <joinRY>-1000</joinRY>
+    <joinRunway>1</joinRunway>
+  </taxiwayRunwayJoin>
+  <taxiwayRunwayJoin UID="622">
+    <joinRX>334</joinRX>
+    <joinRY>-100</joinRY>
+    <joinRunway>1</joinRunway>
+  </taxiwayRunwayJoin>
+  <taxiwayRunwayJoin UID="623">
+    <joinRX>334</joinRX>
+    <joinRY>-1465</joinRY>
+    <joinRunway>1</joinRunway>
+  </taxiwayRunwayJoin>
+  <taxiwaySection UID="2942">
+    <sectionStartID>16317</sectionStartID>
+    <sectionEndID>620</sectionEndID>
+    <sectionWidth>15</sectionWidth>
+  </taxiwaySection>
+  <taxiwaySection UID="2943">
+    <sectionStartID>16317</sectionStartID>
+    <sectionEndID>621</sectionEndID>
+    <sectionWidth>15</sectionWidth>
+  </taxiwaySection>
+  <taxiwaySection UID="2944">
+    <sectionStartID>16317</sectionStartID>
+    <sectionEndID>16318</sectionEndID>
+    <sectionWidth>15</sectionWidth>
+  </taxiwaySection>
+  <taxiwaySection UID="2945">
+    <sectionStartID>622</sectionStartID>
+    <sectionEndID>16318</sectionEndID>
+    <sectionWidth>15</sectionWidth>
+  </taxiwaySection>
+  <taxiwaySection UID="2946">
+    <sectionStartID>623</sectionStartID>
+    <sectionEndID>16318</sectionEndID>
+    <sectionWidth>15</sectionWidth>
+  </taxiwaySection>
+</Airport>
